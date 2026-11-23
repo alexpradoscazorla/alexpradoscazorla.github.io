@@ -108,20 +108,13 @@ La integración se realizaría con **segmentación de red, permisos y dispositiv
 
 ## 6. Flujo integrado de extremo a extremo
 
-Una de las mayores ventajas no está en una herramienta aislada, sino en que la información acompaña al trabajo de principio a fin.
+Cuando el cliente acepta un presupuesto, el sistema de gestión reserva
+el material y genera una orden de trabajo para el técnico. Al terminar
+la instalación, el técnico guarda el parte en la ficha de la instalación.
+Si el cliente comunica una incidencia, soporte puede consultar el historial.
 
-```mermaid
-flowchart TD
-    A[Consulta web o en tienda] --> B[Presupuesto en CRM]
-    B --> C[Pedido y reserva de stock en ERP]
-    C --> D[Preparación de materiales e instalación]
-    D --> E[Parte digital con fotos y revisión]
-    E --> F[Informe al cliente y documentación con QR]
-    F --> G[Seguimiento y soporte mediante tickets]
-```
-
-**Caso práctico:** una academia necesita renovar su red Wi-Fi. Solicita presupuesto desde la web; ventas prepara la propuesta; tras aceptarla, almacén reserva los puntos de acceso y el cableado; el técnico consulta la orden desde el móvil, realiza la instalación y adjunta fotografías. Después se entrega un informe y se registra la documentación para futuras intervenciones. Si surge una incidencia, soporte tiene el historial sin pedir al cliente que explique todo de nuevo.
-
+**Ventajas:** se introducen los datos una sola vez, se evita vender material
+ya reservado y soporte puede atender al cliente con el historial a mano.
 ## 7. Cuatro innovaciones seleccionadas
 
 Se proponen mejoras pequeñas pero ingeniosas, además de una incorporación de IA. Todas están pensadas para ofrecer valor sin exigir una inversión desproporcionada.
